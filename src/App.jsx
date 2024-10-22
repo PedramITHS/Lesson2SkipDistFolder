@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    fetch("http://localhost:3000")
+    fetch("https://backendtest-ye8a.onrender.com/")
       .then((resp) => resp.json())
       .then((data) => console.log(data));
   }, []);
