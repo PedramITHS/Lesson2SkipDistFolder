@@ -26,6 +26,7 @@ function App() {
         </p>
       </div>
       <h3 style={{ color: "red" }}>A new change to the file, added H3!</h3>
+      <h4 style={{ color: "lime" }}>A new change to the file, added H4!</h4>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
